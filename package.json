@@ -1,0 +1,16 @@
+{
+  "name": "cli-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WyLToR/cli-todo.git",
+  "author": "WyLToR <bekesi.patrik@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}
