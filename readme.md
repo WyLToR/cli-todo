@@ -33,7 +33,7 @@ The application supports the following commands:
 - `-a` or `--add [todo task]`: Add a new todo.
 - `-m` or `--modify [id] [todo task]`: Modify a todo.
 - `-s` or `--set [id]`: Set a task as done or undone.
-- `-sp` or `--set-priority [id] [priority 1-3]`: Set the priority of a todo.
+- `-p` or `--set-priority [id] [priority 1-3]`: Set the priority of a todo.
 - `-r` or `--remove [id]`: Remove a todo.
 
 ### Examples
@@ -65,7 +65,7 @@ npm start -s 1
 Set the priority of a todo:
 
 ```bash
-npm start -sp 1 2
+npm start -p 1 2
 ```
 
 Remove a todo:

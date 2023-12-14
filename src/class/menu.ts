@@ -26,7 +26,7 @@ export default class Menu {
       -a --add         [todo task]           - Add Todo
       -m --modify [id] [todo task]           - Modify Todo
       -s --set    [id]                       - Set Task Done-unDone
-      -sp --set-priority [id] [priority 1-3] - Set Priority
+      -p --set-priority [id] [priority 1-3] - Set Priority
       -r --remove [id]                       - Remove Todo`;
   }
   process() {
